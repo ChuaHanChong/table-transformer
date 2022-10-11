@@ -1,0 +1,428 @@
+{
+  "annotation": {
+    "folder": null,
+    "filename": "PMC493271_table_0.jpg",
+    "path": "PMC493271_table_0.jpg",
+    "source": { "database": "PubTables1M-Structure" },
+    "size": { "width": "697", "height": "346", "depth": "3" },
+    "segmented": "0",
+    "object": [
+      {
+        "name": "table",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "36.8631",
+          "xmax": "657.9833",
+          "ymax": "307.1942"
+        }
+      },
+      {
+        "name": "table spanning cell",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "36.8631",
+          "xmax": "317.7073",
+          "ymax": "69.7540"
+        }
+      },
+      {
+        "name": "table spanning cell",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "317.7073",
+          "ymin": "36.8631",
+          "xmax": "546.1426",
+          "ymax": "49.2616"
+        }
+      },
+      {
+        "name": "table spanning cell",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "546.1426",
+          "ymin": "36.8631",
+          "xmax": "623.5028",
+          "ymax": "69.7540"
+        }
+      },
+      {
+        "name": "table spanning cell",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "623.5028",
+          "ymin": "36.8631",
+          "xmax": "657.9833",
+          "ymax": "69.7540"
+        }
+      },
+      {
+        "name": "table projected row header",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "142.0656",
+          "xmax": "657.9833",
+          "ymax": "155.0204"
+        }
+      },
+      {
+        "name": "table projected row header",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "206.7639",
+          "xmax": "657.9833",
+          "ymax": "231.3855"
+        }
+      },
+      {
+        "name": "table column header",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "36.8631",
+          "xmax": "657.9833",
+          "ymax": "69.7540"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "36.8631",
+          "xmax": "657.9833",
+          "ymax": "49.2616"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "49.2616",
+          "xmax": "657.9833",
+          "ymax": "69.7539"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "69.7539",
+          "xmax": "657.9833",
+          "ymax": "90.2464"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "90.2464",
+          "xmax": "657.9833",
+          "ymax": "103.2012"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "103.2012",
+          "xmax": "657.9833",
+          "ymax": "116.1560"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "116.1560",
+          "xmax": "657.9833",
+          "ymax": "129.1108"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "129.1108",
+          "xmax": "657.9833",
+          "ymax": "142.0656"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "142.0656",
+          "xmax": "657.9833",
+          "ymax": "155.0204"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "155.0204",
+          "xmax": "657.9833",
+          "ymax": "167.9373"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "167.9373",
+          "xmax": "657.9833",
+          "ymax": "180.8542"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "180.8542",
+          "xmax": "657.9833",
+          "ymax": "193.8090"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "193.8090",
+          "xmax": "657.9833",
+          "ymax": "206.7639"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "206.7639",
+          "xmax": "657.9833",
+          "ymax": "231.3854"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "231.3854",
+          "xmax": "657.9833",
+          "ymax": "244.3402"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "244.3402",
+          "xmax": "657.9833",
+          "ymax": "257.2951"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "257.2951",
+          "xmax": "657.9833",
+          "ymax": "270.2120"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "270.2120",
+          "xmax": "657.9833",
+          "ymax": "283.1289"
+        }
+      },
+      {
+        "name": "table row",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "283.1289",
+          "xmax": "657.9833",
+          "ymax": "307.1942"
+        }
+      },
+      {
+        "name": "table column",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "37.3586",
+          "ymin": "36.8631",
+          "xmax": "317.7073",
+          "ymax": "307.1942"
+        }
+      },
+      {
+        "name": "table column",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "317.7073",
+          "ymin": "36.8631",
+          "xmax": "392.1178",
+          "ymax": "307.1942"
+        }
+      },
+      {
+        "name": "table column",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "392.1178",
+          "ymin": "36.8631",
+          "xmax": "466.6367",
+          "ymax": "307.1942"
+        }
+      },
+      {
+        "name": "table column",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "466.6367",
+          "ymin": "36.8631",
+          "xmax": "546.1426",
+          "ymax": "307.1942"
+        }
+      },
+      {
+        "name": "table column",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "546.1426",
+          "ymin": "36.8631",
+          "xmax": "623.5028",
+          "ymax": "307.1942"
+        }
+      },
+      {
+        "name": "table column",
+        "pose": "Frontal",
+        "truncated": "0",
+        "difficult": "0",
+        "occluded": "0",
+        "bndbox": {
+          "xmin": "623.5028",
+          "ymin": "36.8631",
+          "xmax": "657.9833",
+          "ymax": "307.1942"
+        }
+      }
+    ]
+  }
+}
