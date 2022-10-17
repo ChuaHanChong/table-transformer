@@ -572,6 +572,36 @@ def visualize(args, target, pred_logits, pred_bboxes):
     plt.close('all')
 
 
+def visualize_2(args, target, pred_logits, pred_bboxes):
+    img_filepath = target["img_path"]
+    img_filename = img_filepath.split("/")[-1]
+
+    img = Image.open(img_filepath)
+    img_size = img.size
+
+    m = pred_logits.softmax(-1).max(-1)
+    pred_labels = list(m.indices.detach().cpu().numpy())
+    pred_scores = list(m.values.detach().cpu().numpy())
+    pred_bboxes = pred_bboxes.detach().cpu()
+    pred_bboxes = [elem.tolist() for elem in rescale_bboxes(pred_bboxes, img_size)]
+
+    if args.data_type == 'structure':
+        img_words_filepath = os.path.join(args.table_words_dir, img_filename.replace(".jpg", "_words.json"))
+
+        with open(img_words_filepath, 'r') as f:
+            tokens = json.load(f)
+
+        pred_table_structures, pred_cells, pred_confidence_score = objects_to_cells(
+            pred_bboxes, pred_labels, pred_scores,
+            tokens, structure_class_names,
+            structure_class_thresholds, structure_class_map
+        )
+
+        return pred_table_structures, pred_cells, pred_confidence_score
+    
+    return None, None, None
+
+
 @torch.no_grad()
 def evaluate(args, model, criterion, postprocessors, data_loader, base_ds, device):
     st_time = datetime.now()
